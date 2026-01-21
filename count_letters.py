@@ -3,5 +3,5 @@
 def count_letters(word):
     return len(word)
 
-text = input('Digite uma palabra: ')
-print(f'A palavra {text} tem {count_letters(text)} letras')
+text = input('Enter a word: ')
+print(f'The Word {text} has {count_letters(text)} letters')

@@ -2,12 +2,12 @@ def somar(a, b):
     return a + b
 
 try: 
-    num1 = float(input('Digite o primeiro número: '))
-    num2 = float(input('Digite o segundo número: '))
+    num1 = float(input('Enter the first number: '))
+    num2 = float(input('Enter the second number'))
 
     resultado = somar (num1, num2)
-    print(f'A soma dos números é: {resultado}')
+    print(f'The sum of the numbers is: {resultado}')
 
 except ValueError:
-    print('Número invalido! Digite apenas números válidos.')
+    print('Invalid Number! Please enter only valid numbers.')
 
